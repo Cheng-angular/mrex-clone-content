@@ -24,9 +24,11 @@ interface Articles {
     thumbnailUrl: string;
 }
 
-(async () => {    
+(async () => { 
+    console.log(targeturl);
+
     try {
-            if (targeturl.includes(eng)) {         
+            if (targeturl.includes(eng)) {
                inputfile = "en.json";
                language = "english";
             } else if(targeturl.includes(french)) {                     
