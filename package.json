@@ -2,14 +2,14 @@
   "name": "scraping",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "start": "ts-node --script-mode src/index.ts",
     "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Cheng",
   "license": "ISC",
   "devDependencies": {
     "@types/axios": "^0.14.0",
